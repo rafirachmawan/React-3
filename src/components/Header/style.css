@@ -1,0 +1,36 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: #333; Ganti sesuai dengan warna latar belakang yang Anda inginkan */
+    padding: 10px 20px;
+  }
+  
+  .header-navlist {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .header-navlist a {
+    text-decoration: none;
+    color: black; /* Ganti sesuai dengan warna teks yang Anda inginkan */
+  }
+  
+  .header-navlist p {
+    margin: 0;
+    text-align: right;
+  }
+  
+  .header-buttons button {
+    background-color: #0074d9; /* Ganti sesuai dengan warna tombol yang Anda inginkan */
+    color: black; /* Ganti sesuai dengan warna teks yang Anda inginkan */
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  /* Tambahan: gaya hover pada tombol */
+  .header-buttons button:hover {
+    background-color: #0056b3; /* Ganti sesuai dengan warna hover yang Anda inginkan */
+  }
+  
